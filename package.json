@@ -12,11 +12,18 @@
   },
   "author": "Sandeep Raveesh",
   "license": "ISC",
+  "proxy": "http://localhost:8080",
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "axios": "^0.21.1",
     "babel-polyfill": "^6.26.0",
+    "copy-to-clipboard": "^3.3.1",
+    "cors": "^2.8.5",
     "express": "^4.16.3",
     "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react-dom": "^16.5.2",
+    "react-simple-pull-to-refresh": "^1.2.3"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
